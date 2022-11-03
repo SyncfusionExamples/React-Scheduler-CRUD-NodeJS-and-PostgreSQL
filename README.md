@@ -1,15 +1,16 @@
 # React-Scheduler-CRUD-Application-with-Node-Js-and-PostgreSQL
-Syncfusion React Scheduler CRUD Application with Node Js and PostgreSQL
+Syncfusion React Scheduler CRUD Application with Node Js and PostgreSQL database.
 
-## Step by Step Tutorial
-[Syncfusion React Rest-api CRUD App Tutorial]()
+## Prerequisites
+- node v14 or higher
+- PostgreSQL
 
-### PostgreSql Configuration
+## PostgreSql Configuration
 
 - Navigate to the `backend/config/db.config.js` file
 - In the `db.config.js` file change the USER, PASSWORD, DB as your database configuration.
 
-### Start Backend Server
+## Start Backend Server
 
 - Get inside the `backend` folder
 - Open terminal run `npm install` to install required packages 
