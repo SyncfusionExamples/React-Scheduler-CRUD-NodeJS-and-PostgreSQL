@@ -1,31 +1,24 @@
-# React-Scheduler-CRUD-Application-with-Node-Js-and-PostgreSQL
-Syncfusion React Scheduler CRUD Application with Node Js and PostgreSQL database.
+# Syncfusion React Scheduler CRUD Application with Node JS and PostgreSQL
+Syncfusion React Scheduler CRUD Application with Node JS and PostgreSQL database.
 
 ## Prerequisites
-- node v14 or higher
-- PostgreSQL
+- [node v14 or higher](https://nodejs.org)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## PostgreSql Configuration
 
-- Navigate to the `backend/config/db.config.js` file
-- In the `db.config.js` file change the USER, PASSWORD, DB as your database configuration.
+- In `backend/config/db.config.js` file update the USER, PASSWORD, and DB as per the database configuration.
 
 ## Start Backend Server
 
-- Get inside the `backend` folder
-- Open terminal run `npm install` to install required packages 
-- Run `node server.js`
-- This will run our backend server.
-
-Open API URL on [http://localhost:8080](http://localhost:8080/) to view it in the browser.
+- Open `backend` folder in terminal and run `npm install` to install the required packages.
+- Run `node server.js` command to start the backend server.
 
 ## Start Syncfusion React Scheduler 
 
-- In the project directory, Open new terminal run `npm install` to install required packages.
-- Run `npm start`
-- This will run our frontend application.
+- Open the project directory in terminal and run `npm install` to install the required packages. 
+- Run `npm start` command to run the application.
 
-Open [http://localhost:8081/](http://localhost:8081/) to view it in the browser.
+Open http://localhost:8081 to view it in the browser.
 
-You can perform CRUD operation on the scheduler.<br>
-The CURD action that you are performing will be reflected in the postgreSQL database table.
+You can perform CRUD operation on the scheduler that will be reflected in the postgreSQL database table.
